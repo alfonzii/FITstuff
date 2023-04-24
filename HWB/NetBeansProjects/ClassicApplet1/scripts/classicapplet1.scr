@@ -1,0 +1,16 @@
+/* Test script for Applet 'ClassicApplet1'
+* Run this script first, to install and register applet
+* Then just "Send To Card" other scripts
+* Whenever you want to reinstall applet, just run this script again.
+*/
+
+powerup;
+// Select ClassicApplet1 //aid/47ECF9749F/DE
+0x00 0xA4 0x04 0x00 0X06 0X47 0XEC 0XF9 0X74 0X9F 0XDF 0x7F;
+
+//Send the APDU here
+//0x80 0xCA 0x00 0x00 <length> <data> 0x7F;
+
+
+
+powerdown;
