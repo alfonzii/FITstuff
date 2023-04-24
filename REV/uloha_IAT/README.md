@@ -1,4 +1,4 @@
-# 2. Import Address Table
+# 2. Import Address Table - assignment
 
 Your program compiled with MS Visual Studio typically depends on an external runtime library such as `MSVCRT12.DLL` (the version in the name may vary according to the compiler version, this name applies to Visual Studio 2013). This library contains functions `malloc`, `calloc`, `realloc`, and `free`. Write a program which will contain functions:
 
